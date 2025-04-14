@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Registration Page</title>
+  </head>
+  <body>
+    <!-- this is navbar -->
+    <header>
+      <nav class="nav-col">
+        <a class="logo-pic">Tic Tac Toe</a>
+        <u class="Page-links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="signup.html">Sign-up</a>
+          </li>
+          <li><a href="Login.html">Log-In</a></li>
+          <li><a href="Game.html">Play Game</a></li>
+          <li>
+            <a href="leardborad.html">LeaderBoard</a>
+          </li>
+        </u>
+      </nav>
+    </header>
+    <!-- this is Registartaion form -->
+    <div class="row center">
+      <div class="container1 col">
+        <form onsubmit="store()">
+          <label class="inputitems">Registartaion Form</label>
+          <div class="inputitems">
+            <input type="text" placeholder="Enter your Name" id="name" />
+          </div>
+          <div class="inputitems">
+            <input type="text" placeholder="Enter your student Id" id="s-id" />
+          </div>
+          <div class="inputitems">
+            <input type="email" placeholder="Enter your E-mail" id="mail-id" />
+          </div>
+          <div class="inputitems">
+            <input type="password" placeholder="Password" id="pw" />
+          </div>
+          <div class="policy">
+            <input type="checkbox" />
+            <h3>I accept all terms & condition</h3>
+          </div>
+          <div class="inputitems">
+            <button class="btn">submit</button>
+          </div>
+          <div class="text">
+            <h3>
+              Already have an account?
+              <a href="Login.html">Login now</a>
+            </h3>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Addinig external javascript file -->
+    <script src="javascript/GameJs.js"></script>
+  </body>
+</html>
